@@ -40,3 +40,12 @@ Este proyecto sigue una filosofía de software libre. Todo el código fluye desd
 ## Licencia
 
 Este proyecto está bajo la Licencia MIT.
+
+## Credits and Attribution
+
+**Audio Files:**
+* `exploration_catholic_church_gregoriano.ogg`: Gregorian chant audio sourced from @tuxmatic at (https://youtube.com/shorts/bbsD958lzzo?si=cnN_J--ULbYkUIl6). Licensed under CC BY 4.0.
+* `exploration_catholic_church_polifonia.ogg`: Polyphony choral audio sourced from @tuxmatic at (https://youtube.com/shorts/ovnKw-c6-Ko?si=IPpKi-6KdyZiVV1z). Licensed under CC BY 4.0.
+* `exploration_catholic_church_campana.ogg`: Bronze bell sound effect sourced from @prosoundsx at (https://youtu.be/HlVRji1lI-M). Licensed under CC BY 4.0.
+
+All other code, textures, and schematic files were created by tuxmatic and are distributed under the MIT License.
