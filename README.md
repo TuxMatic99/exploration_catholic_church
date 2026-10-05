@@ -43,9 +43,53 @@ Este proyecto está bajo la Licencia MIT.
 
 ## Credits and Attribution
 
-**Audio Files:**
-* `exploration_catholic_church_gregoriano.ogg`: Gregorian chant audio sourced from @tuxmatic at (https://youtube.com/shorts/bbsD958lzzo?si=cnN_J--ULbYkUIl6). Licensed under CC BY 4.0.
-* `exploration_catholic_church_polifonia.ogg`: Polyphony choral audio sourced from @tuxmatic at (https://youtube.com/shorts/ovnKw-c6-Ko?si=IPpKi-6KdyZiVV1z). Licensed under CC BY 4.0.
-* `exploration_catholic_church_campana.ogg`: Bronze bell sound effect sourced from @prosoundsx at (https://youtu.be/HlVRji1lI-M). Licensed under CC BY 4.0.
+All code, textures, and schematic files were created by koatl (tuxmatic) and are distributed under the MIT License. 
 
-All other code, textures, and schematic files were created by tuxmatic and are distributed under the MIT License.
+Audio files (Gregorian chants, polyphony, and bell sounds) are distributed under the Creative Commons Attribution 4.0 International (CC BY 4.0) License. Please see the `LICENSE` file in this repository for full authorship credits, source links, and license terms.
+
+# Latin Cross Basilica (exploration_catholic_church)
+
+An architectural generation mod for Luanti (formerly Minetest) designed to showcase the majesty of Vatican and Catholic Church architecture in an interactive and fun way.
+
+The primary goal is to allow players to explore the engineering of a monumental Latin cross floor plan, interact with its acoustics, and access a rich catalog of sacred art textures and materials (marble, bronze, stained glass, mahogany) that can be reused in any personal project or fortress.
+
+## Key Features
+
+* **Dynamic Algorithmic Generation:** Builds the church block-by-block before your eyes using chat commands. Powered by the "Tuxmatic Algorithm," the mod offloads thermal and lighting processing to the C++ engine, maintaining a 0% processing impact while idle.
+* **Mutual Exclusion Acoustics:** Features dynamic proximity detection that plays Gregorian chants near the High Altar and polyphonic music near the pipe organ, intelligently muting the more distant source to avoid overloading audio threads.
+* **Structural Ecosystems:** Generates authentic architectural modules such as the Narthex, Clerestory, Triforium, recessed confessionals, an interactive 95-meter-tall bell tower, and an underground crypt with sarcophagi.
+* **Universal Deployment (Schematics):** Full support for packaging the structure into `.mts` binary files and instantly deploying them on any terrain.
+* **Internationalization (i18n):** Natively translated into 10 languages ​​(English, Spanish, Italian, Portuguese, French, Japanese, Chinese, Russian, Korean, and Filipino) with full ContentDB standardization. ## Installation
+
+1. Download the repository or the `.zip` file.
+2. Extract the folder and rename it to `exploration_catholic_church`.
+3. Move the folder to the `mods/` directory of your Luanti installation.
+4. Enable the mod in your world settings.
+
+## Main Commands
+
+To experience the iterative construction process, position yourself on flat terrain and use the chat console:
+
+* `/construir_nave` - Anchors the survey datum in memory and clears the terrain.
+* `/construir_muros` - Raises the perimeter walls, triforium, and clerestory in a single mathematical pass.
+* `/construir_boveda` - Erects the Renaissance barrel vault and suspends the main light fixtures.
+* `/construir_crucero_cupula` - Generates the transept, the drum, and the central golden dome at a height of 65 meters.
+* `/construir_cripta` - Excavates the underground area to create the papal reliquary zone.
+* `/construir_campanario` - Raises an interactive 95-meter-tall bell tower with a spiral staircase.
+* `/iluminar_interseccion` - Deploys high-performance static lighting.
+* `/inventario_sacro` - Stocks your inventory with a stack of each block and texture for free use.
+* `/exportar_basilica` / `/importar_basilica` - Manages binary `.mts` schematics for map portability.
+
+## Contribution and Open Source
+
+This project follows a free software philosophy. All code flows from low-level Lua logic to GitHub and finally to the ContentDB catalog. Feel free to fork the project, propose improvements via Pull Requests, or use the textures for your own mods.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Credits and Attribution
+
+All code, textures, and schematic files were created by koatl (tuxmatic) and are distributed under the MIT License. 
+
+Audio files (Gregorian chants, polyphony, and bell sounds) are distributed under the Creative Commons Attribution 4.0 International (CC BY 4.0) License. Please see the `LICENSE` file in this repository for full authorship credits, source links, and license terms.
