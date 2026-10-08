@@ -1,6 +1,8 @@
 MIT License
 
-Copyright (c) 2026 koatl (tuxmatic)
+Copyright (c) 2026 Koatl (tuxmatic)
+
+This MIT License applies to the source code (the "Software"), as well as all textures and .mts schematic files included in this repository.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -23,12 +25,14 @@ SOFTWARE.
 ----------------------------------------------------------------------
 MEDIA AND AUDIO CREDITS
 ----------------------------------------------------------------------
-The following audio assets are licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) License:
-
 * exploration_catholic_church_gregoriano.ogg: Composed by @tuxmatic. Source: https://youtube.com/shorts/bbsD958lzzo
+  Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) License.
+  Full license terms: https://creativecommons.org/licenses/by/4.0/
+  You are free to share and adapt this audio, even commercially, as long as you give appropriate credit and distribute your contributions under the same license.
+
 * exploration_catholic_church_polifonia.ogg: Composed by @tuxmatic. Source: https://youtube.com/shorts/ovnKw-c6-Ko
-* exploration_catholic_church_campana.ogg: Bronze bell sound by @prosoundsx. Source: https://youtu.be/HlVRji1lI-M
+  Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) License. (See full terms above).
 
-Full CC BY 4.0 license terms: https://creativecommons.org/licenses/by/4.0/
-
-You are free to share and adapt this audio, even commercially, as long as you give appropriate credit and distribute your contributions under the same license.
+* exploration_catholic_church_campana.ogg: Downloaded from Freesound.org.
+  Licensed under the Creative Commons Zero v1.0 Universal (CC0 1.0 Public Domain Dedication).
+  bec low bell solo.wav by HMTSCCSound -- https://freesound.org/s/554655/ -- License: Creative Commons 0
